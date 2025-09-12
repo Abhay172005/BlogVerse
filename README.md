@@ -34,67 +34,16 @@ BlogVerse is a **modern blogging platform** built with **React** and powered by 
 
 ## 📂 Project Structure
 
+
 blogverse/
 │── src/
-│ ├── components/ # Reusable UI components (Header, PostCard, SearchBar, etc.)
-│ ├── pages/ # Pages (Home, PostPage, CreatePost, Login, Signup)
-│ ├── supabaseClient.js # Supabase configuration
-│ └── App.js # App entry point with routing
+│   ├── components/        # Reusable UI components (Header, PostCard, SearchBar, etc.)
+│   ├── pages/             # Pages (Home, PostPage, CreatePost, Login, Signup)
+│   ├── supabaseClient.js  # Supabase configuration
+│   └── App.js             # App entry point with routing
 │
-├── public/ # Static assets
-├── .gitignore # Ignored files (node_modules, .env, build, etc.)
-├── package.json # Dependencies and scripts
-├── README.md # Project documentation
-└── .env # Environment variables (not pushed to GitHub)
-
-yaml
-Copy code
-
----
-
-## ⚙️ Setup & Installation
-
-Clone the repository and run the following:
-
-```bash
-# Clone repo
-git clone https://github.com/Abhay172005/BlogVerse.git
-cd BlogVerse
-
-# Install dependencies
-npm install
-
-# Add environment variables (create a .env file in project root)
-echo "REACT_APP_SUPABASE_URL=your_supabase_url" > .env
-echo "REACT_APP_SUPABASE_ANON_KEY=your_supabase_key" >> .env
-
-# Start development server
-npm start
-Build for production:
-
-bash
-Copy code
-npm run build
-🚀 Deployment
-Easily deploy with Vercel:
-
-Push code to GitHub
-
-Go to Vercel and import the repository
-
-Add environment variables (REACT_APP_SUPABASE_URL, REACT_APP_SUPABASE_ANON_KEY)
-
-Deploy 🚀
-
-📌 Roadmap
- Add User Profiles with avatars and bio
-
- Implement Dark Mode
-
- Add Rich Text Editor for blog creation
-
- Enable Image Uploads for blogs
-
- SEO optimization for better discoverability
-
-
+├── public/                # Static assets
+├── .gitignore             # Ignored files (node_modules, .env, build, etc.)
+├── package.json           # Dependencies and scripts
+├── README.md              # Project documentation
+└── .env                   # Environment variables (not pushed to GitHub)
