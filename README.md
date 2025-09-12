@@ -32,18 +32,21 @@ BlogVerse is a **modern blogging platform** built with **React** and powered by 
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Setup & Installation
 
+Clone the repository and run the following:
 
-blogverse/
-│── src/
-│   ├── components/        # Reusable UI components (Header, PostCard, SearchBar, etc.)
-│   ├── pages/             # Pages (Home, PostPage, CreatePost, Login, Signup)
-│   ├── supabaseClient.js  # Supabase configuration
-│   └── App.js             # App entry point with routing
-│
-├── public/                # Static assets
-├── .gitignore             # Ignored files (node_modules, .env, build, etc.)
-├── package.json           # Dependencies and scripts
-├── README.md              # Project documentation
-└── .env                   # Environment variables (not pushed to GitHub)
+```bash
+# Clone repo
+git clone https://github.com/Abhay172005/BlogVerse.git
+cd BlogVerse
+
+# Install dependencies
+npm install
+
+# Add environment variables (create a .env file in project root)
+echo "REACT_APP_SUPABASE_URL=your_supabase_url" > .env
+echo "REACT_APP_SUPABASE_ANON_KEY=your_supabase_key" >> .env
+
+# Start development server
+npm start
