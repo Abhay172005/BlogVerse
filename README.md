@@ -1,6 +1,6 @@
 # 📖 BlogVerse
 
-BlogVerse is a **modern blogging platform** built with **React** and powered by **Supabase** as the backend. It allows users to **create, edit, delete, and explore blogs** on various topics including technology, AI, geopolitics, environment, and more. This project is designed to be **responsive, user-friendly, and scalable**, making it a perfect base for personal blogging or learning **full-stack web development**.
+BlogVerse is a **modern blogging platform** built with **React** and powered by **Supabase** as the backend. It allows users to **create, edit, delete, and explore blogs** on various topics including technology, AI, geopolitics, environment, and more. This project is designed to be **responsive, user-friendly, and scalable**, making it a perfect base for personal blogging.
 
 ---
 
